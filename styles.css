@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(67, 72, 75);
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add your custom styles here */
+#introPage {
+    text-align: center;
+    background-image: url("OIP.jpg"); /* Add the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(67, 72, 75, 0.5);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#introPage h1 {
+    font-size: 24px;
+}
+
+#introPage p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#introPage body {
+    color: black;
+}
+
+#introPage button {
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+#videoFeedPage {
+    display: none;
+    background-color: black;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(53, 60, 64);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#songPlayer {
+    margin-top: 20px;
+}
+
+#songPlayer h2 {
+    font-size: 20px;
+}
+
+#songPlayer button {
+    font-size: 16px;
+    margin: 10px;
+}
+
+#songList {
+    list-style: none;
+    padding: 0;
+}
+
+#songList li {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#songList li:hover {
+    text-decoration: underline;
+}
+
+input[type="text"],
+button {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#videoElement {
+    width: 300px;
+    height: 225px;
+    border: 2px solid white;
+}
